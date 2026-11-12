@@ -13,3 +13,7 @@ def record(value, history=None):
 # None is a singleton, so use is None. == can be fooled by a custom __eq__
 def is_missing(x):
     return x is None
+
+
+def broken_total():
+    return missing_total
